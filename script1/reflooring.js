@@ -14,9 +14,11 @@ const openButton2 = document.getElementById('side-button2');
 const openButton3 = document.getElementById('side-button3');
 const modal = document.getElementById('modal');
 const modal2 = document.getElementById('modal2');
+const modal3 = document.getElementById('modal3');
 const overlay = document.getElementById('overlay');
 const close = document.getElementById('close-button');
 const close2 = document.getElementById('close-button2');
+const close3 = document.getElementById('close-button3');
 
 openButton1.addEventListener('click', () => {
     modal.classList.add('active');
@@ -39,6 +41,11 @@ close2.addEventListener('click', () => {
 });
 
 openButton3.addEventListener('click', () => {
-    modal.classList.add('active');
+    modal3.classList.add('active');
     overlay.classList.add('active');
+});
+
+close3.addEventListener('click', () => {
+    modal3.classList.remove('active');
+    overlay.classList.remove('active');
 });
