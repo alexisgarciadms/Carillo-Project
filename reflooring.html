@@ -1,0 +1,144 @@
+<!-- Project V.1 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://kit.fontawesome.com/a7e5dde33e.js" crossorigin="anonymous"></script>
+	<title>Carillo Home Improvement | Welcome</title>
+	<link rel="stylesheet" type="text/css" 
+	href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1>Carillo Home Improvement, LLC</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="kitchenremodeling.html">Kitchen Remodeling</a></li>
+					<li><a href="bathroomremodeling.html">Bathroom Remodeling</a></li>
+					<li class="current tab-border"><a href="reflooring.html">Re-Flooring</a></li>
+					<li><a href="additions.html">Additions</a></li>
+					<li><a href="contactus.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>	
+	</header>
+	<div class="side-buttons-placement">
+		<button id="side-button1"><img src="./img/225155.png"></button><br>
+		<button id="side-button2"><img src="./img/filepic.png"></button><br>
+		<button id="side-button3"><img src="./img/emailpic.png"></button>
+		<div class="modal" id="modal">
+			<div class="modal-header">
+				<div class="modal-title">
+					Carillo Home Improvement, LLC
+				</div>	
+				<button class="close-button" id="close-button">&times;</button>
+			</div>
+			<div class="popup-body">
+				<h3>Let's Talk!</h3>
+				<p id="call-us-box">
+					<a href="skype.com">(973) 879-6804</a>
+				</p>
+			</div>
+		</div>
+		<div class="modal" id="modal2">
+			<div class="modal-header">
+				<div class="modal-title">
+					Carillo Home Improvement, LLC
+				</div>	
+				<button class="close-button" id="close-button2">&times;</button>
+			</div>
+			<div class="popup-body2">
+				<h3>Send Us a Form</h3>
+				<form  action="" id="popup-form">
+					<fieldset>
+						<legend>Client Information</legend>
+						<label>
+							<input type="text" placeholder="First Name" name="first-name"  required="required"/></label>
+						<label>
+							<input type="text" placeholder="Last Name" name="last-name" required="required"/></label><br />
+						<label>
+							<input type="text" placeholder="Billing Address" name="billing-adress" required="required"></label><br />
+						<label>
+							<input type="text" placeholder="Phone" name="phone-number" required="required"></label><br />
+					</fieldset>
+					<fieldset id="fieldset">
+						<legend>Services</legend>
+						<label>Type of Home<br />
+							<select name="home-type">
+								<option value="condo">Condo</option>
+								<option value="townhouse">Townhouse</option>
+								<option value="single-family">Single Family</option>
+								<option value="Other">Other</option>
+							</select><br />
+						</label>	
+						<label>Service Desired<br />
+							<select name="service-desired">
+								<option value="kitchenremodeling">Kitchen Remodel</option>
+								<option value="bathroomremodeling">Bathroom Remodel</option>
+								<option value="painting">Painting</option>
+								<option value="roof">Roof/Siding</option>
+								<option value="handyman">Handyman Services</option>
+								<option value="other">Other</option>
+							</select>
+						</label>	
+					</fieldset>
+					<button class="contact-us-button">Submit</button>
+				</form>
+			</div>
+		</div>	
+		<div id="overlay"></div>	
+	</div>	
+	<!--New section that will contain title and text -->
+	<section id="main">
+		<div class="container">
+			<article id="main-col">
+				<h1 class="page-title">Above and Beyond Remodeling</h1>
+				<p>
+					As previously mentioned, there’s so much more to what we do at Carrillo Home Improvement in Dover, New Jersey than just remodeling. We tend to go above and beyond it all. One way we accomplish this is through our re-flooring services.
+				</p>
+				<h1>Covering it All</h1>
+				<p>
+					Whether you’ve had damage to your current floors or you’re just looking to change things up, we’re generally pretty adaptable to whatever you’re looking to do. We can work with hardwood floors, laminate, and even tile floors. Plus, at Carrillo Home Improvement, we only work with the highest quality products out on the market. That way you know, whenever you’re working with us, you’re ONLY getting the best of the best with both service and re-flooring. That’s our promise to you.
+				</p>	
+			</article>	
+			<!--Side bar located on the right of the page containing text-->
+			<aside id="sidebar">
+				<div class="dark">
+				<h3>Ready to Get Started?</h3>
+				<p>
+					Ready to get things started? We’ve got you – and your floors – covered! Reach out to our team of experts for a free consultation today, and we’ll tell you all the steps in the process. We’ll also tell you what we’ll need from you, a general idea of how long it could take, and gladly answer any questions you might have. By the time we’re done, your home will be complete with some shiny new flooring!
+				</p>
+				</div>
+			</aside>	
+		</div>	
+	</section>
+	<!--A picture will be displayed under the text-->
+	<section id="kitchen_boxes2">
+		<div class="container">
+			<div class="box2">
+				<img src="./img/193545.png">
+			</div>			
+		</div>	
+	</section>
+	<section id="newsletter">
+		<div class="container">
+			<h1>Reach Out To the Team</h1>
+			<form>
+				<input type="email" placeholder="Enter Email...">
+				<button type="Sumbit" class="newsletter-button">Submit</button>
+			</form>
+		</div>	
+	</section>	
+	<footer>
+		<p>Content, including images, displayed on this website is protected by copyright laws. Copyright, &copy; 2022</p>
+	</footer>
+
+	<script src="script/reflooring.js"></script>
+</body>
+</html>

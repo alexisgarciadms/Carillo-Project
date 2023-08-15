@@ -1,0 +1,143 @@
+<!-- Project V.1 -->
+<!--Most of the content is copied from index.html since it will be shown in every page of the site-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Carillo Home Improvement | Kitchen Remodeling</title>
+	<link rel="stylesheet" type="text/css" 
+	href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1>Carillo Home Improvement, LLC</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="current tab-border"><a href="kitchenremodeling.html">Kitchen Remodeling</a></li>
+					<li><a href="bathroomremodeling.html">Bathroom Remodeling</a></li>
+					<li><a href="reflooring.html">Re-Flooring</a></li>
+					<li><a href="additions.html">Additions</a></li>
+					<li><a href="contactus.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>	
+	</header>
+	<div class="side-buttons-placement">
+		<button id="side-button1"><img src="./img/225155.png"></button><br>
+		<button id="side-button2"><img src="./img/filepic.png"></button><br>
+		<button id="side-button3"><img src="./img/emailpic.png"></button>
+		<div class="modal" id="modal">
+			<div class="modal-header">
+				<div class="modal-title">
+					Carillo Home Improvement, LLC
+				</div>	
+				<button class="close-button" id="close-button">&times;</button>
+			</div>
+			<div class="popup-body">
+				<h3>Let's Talk!</h3>
+				<p id="call-us-box">
+					<a href="skype.com">(973) 879-6804</a>
+				</p>
+			</div>
+		</div>
+		<div class="modal" id="modal2">
+			<div class="modal-header">
+				<div class="modal-title">
+					Carillo Home Improvement, LLC
+				</div>	
+				<button class="close-button" id="close-button2">&times;</button>
+			</div>
+			<div class="popup-body2">
+				<h3>Send Us a Form</h3>
+				<form  action="" id="popup-form">
+					<fieldset>
+						<legend>Client Information</legend>
+						<label>
+							<input type="text" placeholder="First Name" name="first-name"  required="required"/></label>
+						<label>
+							<input type="text" placeholder="Last Name" name="last-name" required="required"/></label><br />
+						<label>
+							<input type="text" placeholder="Billing Address" name="billing-adress" required="required"></label><br />
+						<label>
+							<input type="text" placeholder="Phone" name="phone-number" required="required"></label><br />
+					</fieldset>
+					<fieldset id="fieldset">
+						<legend>Services</legend>
+						<label>Type of Home<br />
+							<select name="home-type">
+								<option value="condo">Condo</option>
+								<option value="townhouse">Townhouse</option>
+								<option value="single-family">Single Family</option>
+								<option value="Other">Other</option>
+							</select><br />
+						</label>	
+						<label>Service Desired<br />
+							<select name="service-desired">
+								<option value="kitchenremodeling">Kitchen Remodel</option>
+								<option value="bathroomremodeling">Bathroom Remodel</option>
+								<option value="painting">Painting</option>
+								<option value="roof">Roof/Siding</option>
+								<option value="handyman">Handyman Services</option>
+								<option value="other">Other</option>
+							</select>
+						</label>	
+					</fieldset>
+					<button class="contact-us-button">Submit</button>
+				</form>
+			</div>
+		</div>	
+		<div id="overlay"></div>	
+	</div>
+	<!--New section that will contain title and text -->
+	<section id="main">
+		<div class="container">
+			<article id="main-col">
+				<h1 class="page-title">How Carrillo Home Improvement Can Help</h1>
+				<p>
+					That’s where we come in. The team at Carrillo Home Improvement in Dover, NJ is committed to making that dream kitchen of yours a reality. We will also do our best to as pose as minimal an inconvenience on your day-to-day life as possible, while offering competitive prices and most importantly, quality work you’ll love.
+				</p>
+				<p>
+					It all starts with an initial phone call. During the call, you just let us know what you’re looking to do with the space versus what you’ve got now, as well as the design elements you have in mind. From there, a member of our team will travel to your location for an initial estimate and assess the situation. After that, we’ll get to work and before you know it, you’ll have the perfect kitchen.
+				</p>	
+			</article>	
+			<!--Side bar located on the right of the page containing text-->
+			<aside id="sidebar">
+				<div class="dark">
+				<h3>What You Need To Know</h3>
+				<p>
+					The process of renovating a kitchen may seem daunting when it first comes to mind. Immediately, people think of it as a big project that will serve as an inconvenience during your day-to-day life. That’s not to mention the financial side of just how much it will cost, either. It’s definitely a big project and one that should not be taken lightly. But given how much time you spend in your home each day, why not have the kitchen you’ve always wanted?
+				</p>
+				</div>
+			</aside>	
+		</div>	
+	</section>
+	<!--A picture will be displayed under the text-->
+	<section id="kitchen_boxes">
+		<div class="container">
+			<div class="box">
+				<img src="./img/181904.png">
+			</div>			
+		</div>	
+	</section>
+	<section id="newsletter">
+		<div class="container">
+			<h1>Reach Out to The Team</h1>
+			<form>
+				<input type="email" placeholder="Enter Email...">
+				<button type="Sumbit" class="newsletter-button">Submit</button>
+			</form>
+		</div>	
+	</section>	
+	<footer>
+		<p>Content, including images, displayed on this website is protected by copyright laws. Copyright, &copy; 2022</p>
+	</footer>
+
+	<script src="script/kitchenremodeling.js"></script>
+</body>
+</html>

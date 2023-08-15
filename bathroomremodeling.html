@@ -1,0 +1,143 @@
+<!-- Project V.1 -->
+<!--Most of the content is copied from index.html since it will be shown in every page of the site-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://kit.fontawesome.com/a7e5dde33e.js" crossorigin="anonymous"></script>
+	<title>Carillo Home Improvement | Welcome</title>
+	<link rel="stylesheet" type="text/css" 
+	href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1>Carillo Home Improvement, LLC</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="kitchenremodeling.html">Kitchen Remodeling</a></li>
+					<li class="current tab-border"><a href="bathroomremodeling.html">Bathroom Remodeling</a></li>
+					<li><a href="reflooring.html">Re-Flooring</a></li>
+					<li><a href="additions.html">Additions</a></li>
+					<li><a href="contactus.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>	
+	</header>
+	<div class="side-buttons-placement">
+		<button id="side-button1"><img src="./img/225155.png"></button><br>
+		<button id="side-button2"><img src="./img/filepic.png"></button><br>
+		<button id="side-button3"><img src="./img/emailpic.png"></button>
+		<div class="modal" id="modal">
+			<div class="modal-header">
+				<div class="modal-title">
+					Carillo Home Improvement, LLC
+				</div>	
+				<button class="close-button" id="close-button">&times;</button>
+			</div>
+			<div class="popup-body">
+				<h3>Let's Talk!</h3>
+				<p id="call-us-box">
+					<a href="skype.com">(973) 879-6804</a>
+				</p>
+			</div>
+		</div>
+		<div class="modal" id="modal2">
+			<div class="modal-header">
+				<div class="modal-title">
+					Carillo Home Improvement, LLC
+				</div>	
+				<button class="close-button" id="close-button2">&times;</button>
+			</div>
+			<div class="popup-body2">
+				<h3>Send Us a Form</h3>
+				<form  action="" id="popup-form">
+					<fieldset>
+						<legend>Client Information</legend>
+						<label>
+							<input type="text" placeholder="First Name" name="first-name"  required="required"/></label>
+						<label>
+							<input type="text" placeholder="Last Name" name="last-name" required="required"/></label><br />
+						<label>
+							<input type="text" placeholder="Billing Address" name="billing-adress" required="required"></label><br />
+						<label>
+							<input type="text" placeholder="Phone" name="phone-number" required="required"></label><br />
+					</fieldset>
+					<fieldset id="fieldset">
+						<legend>Services</legend>
+						<label>Type of Home<br />
+							<select name="home-type">
+								<option value="condo">Condo</option>
+								<option value="townhouse">Townhouse</option>
+								<option value="single-family">Single Family</option>
+								<option value="Other">Other</option>
+							</select><br />
+						</label>	
+						<label>Service Desired<br />
+							<select name="service-desired">
+								<option value="kitchenremodeling">Kitchen Remodel</option>
+								<option value="bathroomremodeling">Bathroom Remodel</option>
+								<option value="painting">Painting</option>
+								<option value="roof">Roof/Siding</option>
+								<option value="handyman">Handyman Services</option>
+								<option value="other">Other</option>
+							</select>
+						</label>	
+					</fieldset>
+					<button class="contact-us-button">Submit</button>
+				</form>
+			</div>
+		</div>	
+		<div id="overlay"></div>	
+	</div>
+	<!--New section that will contain title and text -->
+	<section id="main">
+		<div class="container">
+			<article id="main-col">
+				<h1 class="page-title">Explore the Possibilities</h1>
+				<p>
+					Just because you’re not a fan of your current bathroom, that doesn’t mean that it can’t be improved. Similar to remodeling a kitchen, there’s so many different possibilities for what can be done.
+				</p>
+				<p>
+					Whether you’re looking to change the counter, the cabinets, the mirror,  the bathtub, the tile walls or floors, or even the toilet, the professionals over at Carrillo Home Improvement in Dover, NJ can make it all happen for you. We’ll even give the bathroom a fresh coat of paint, to the point where you won’t even be able to recognize what you had before. The possibilities are seemingly limitless. So why not take advantage and change things up in your bathroom today?
+				</p>	
+			</article>	
+			<!--Side bar located on the right of the page containing text-->
+			<aside id="sidebar">
+				<div class="dark">
+				<h3>Breaking Down the Process</h3>
+				<p>
+					When it comes to the process of changing things up in your bathroom, it starts off pretty similar to what you’d do for kitchen remodeling. It all begings with that first estimate. All you need to do is give us a call, and we’ll ask you everything we need to know about what you’re looking to do. From there, we’ll come evaluate the area, and see how we can pull it all off. From there, our crew will get right to work. Leave it all to us, and enjoy the end result!
+				</p>
+				</div>
+			</aside>	
+		</div>	
+	</section>
+		<section id="kitchen_boxes">
+		<div class="container">
+			<div class="box">
+				<img src="./img/181815.png">
+			</div>			
+		</div>	
+	</section>
+	<!--A picture will be displayed under the text-->
+	<section id="newsletter">
+		<div class="container">
+			<h1>Reach Out To the Team</h1>
+			<form>
+				<input type="email" placeholder="Enter Email...">
+				<button type="Sumbit" class="newsletter-button">Submit</button>
+			</form>
+		</div>	
+	</section>	
+	<footer>
+		<p>Content, including images, displayed on this website is protected by copyright laws. Copyright, &copy; 2022</p>
+	</footer>
+	<script src="script/bathroomremodeling.js"></script>
+</body>
+</html>
